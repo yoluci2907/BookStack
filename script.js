@@ -17,7 +17,7 @@ async function getBooks(info) {
         const response = await fetch(` https://openlibrary.org/search.json?q=${encodeURIComponent(info)}`);
         const data = await response.json();
 
-        const books = data.docs.slice(0,3);
+        const books = data.docs.slice(0,5);
 
         displayBooks(books);
     }
