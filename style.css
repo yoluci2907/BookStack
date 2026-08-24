@@ -1,0 +1,92 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+
+    background-image: url("wp4664604-book-fantasy-wallpapers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+#search-form{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#search-input{
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #302d2d;
+}
+
+.results-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.book-card {
+    display: flex;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    gap: 15px;
+}
+
+.book-cover{
+    width: 100px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.book-details h3{
+    margin: 0 0 8px 0;
+    color: #222;
+}
+
+.book-details p{
+    margin: 4px 0;
+    color: #555;
+    font-size: 14px;
+}
