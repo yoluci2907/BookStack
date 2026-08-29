@@ -17,7 +17,27 @@
         <div id="results" class="results-grid"></div>
     </div>
 
+    <div id="book-detail" class="modal-overlay">
+        <div class="modal-box">
+            <button id="close-modal-btn" class="modal-close-btn">&times;</button>
+            
+            <div class="modal-cover-container">
+                <img id="modal-cover" src="" alt="Book Cover" class="modal-cover-img" />
+            </div>
 
+            <div class="modal-info-container">
+                <h2 id="modal-title"></h2>
+                <p><strong>Author:</strong> <span id="modal-author"></span></p>
+                <p><strong>Published Year:</strong> <span id="modal-year"></span></p>
+                <hr class="modal-divider" />
+                <p>
+                    <strong>Information:</strong><br />
+                    <span id="modal-about"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
