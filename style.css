@@ -50,8 +50,8 @@ h1{
 button{
     padding: 20px 20px;
     font-size: 16px;
-    background-color:#ccc;
-    color: rgb(226, 217, 205);
+    background-color:#000000;
+    color: rgb(0, 0, 0);
     border: 2px  solid black;
     border-radius: 25px;
     cursor: pointer;
@@ -59,7 +59,7 @@ button{
 }
 
 button:hover{
-    background-color: #000000;
+    border:2px solid #ccc;
     
 }
 
@@ -186,11 +186,7 @@ button:hover{
 .modal-info-container h2 {
     margin: 0;
     color: #111;
-}
-.modal-info-container h2:hover{
-    cursor: pointer;
     text-decoration: underline;
-    
 }
 
 .modal-info-container p {
